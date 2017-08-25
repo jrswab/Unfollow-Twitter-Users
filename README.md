@@ -1,5 +1,4 @@
-# Automattically Unfollow Twitter Users
-## Who are not following you back
+# Automattically Unfollow Twitter Users who are not following you back
 This simple script can be run in your web console.  
 Make sure you are one your profile under 'followers'.  
 Scroll down as far as you wish, then copy/paste this script into the web console.  
