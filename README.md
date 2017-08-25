@@ -4,6 +4,11 @@ Make sure you are one your profile under 'followers'.
 Scroll down as far as you wish, then copy/paste this script into the web console.  
 It will pause for 2 seconds between each unfollow action in order to not be spammy on the Twitter network.  
   
+### Warning:
+#### Do not unfollow more than 300-400 people in a 24 hour period.
+Twitter does not like mass unfollowing (or following) and will lock your account.  
+To many lock outs and you could get your account banned.  
+  
 ### How to do the thing:
 #### (In 7 Easy Steps!)
 0. Right Click 'unfollowTwitter.js' above and select open in new tab
