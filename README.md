@@ -19,4 +19,9 @@ To many lock outs and you could get your account banned.
 5. Press 'Enter'
 6. Profit!  
   
+  If you want to run this script more than once make sure you reload twitter so the 'non-followers' are off the page. Else this will just reclick and have you refollow.
+  
+To Do:
+1. Make the script unable to refollow if user forgets to reload page before a second run.
+  
 ### If you found this usefull please give it a star. I'll :heart: you forever.
