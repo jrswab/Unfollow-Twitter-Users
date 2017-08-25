@@ -8,7 +8,7 @@ It will pause for 2 seconds between each unfollow action in order to not be spam
 ## How to do the thing:
 ### (In 6 Easy Steps!)
 0. Right Click 'unfollowTwitter.js' above and select open in new tab
-1. Open [Twitter/following](https://twitter.com/following)
+1. Open [https://twitter/following](https://twitter.com/following)
 2. Open the dev console (**ctrl + shift + J** or **cmd + shift + J** on Mac)
 3. Highlight and copy the code from 'unfollowTwitter.js'
 4. Paste the copied code into your dev console from step 3)
