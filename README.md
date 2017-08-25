@@ -6,7 +6,7 @@ Scroll down as far as you wish, then copy/paste this script into the web console
 It will pause for 2 seconds between each unfollow action in order to not be spammy on the Twitter network.  
   
 ## How to do the thing:
-### (In 6 Easy Steps!)
+### (In 7 Easy Steps!)
 0. Right Click 'unfollowTwitter.js' above and select open in new tab
 1. Open [https://twitter/following](https://twitter.com/following)
 2. Open the dev console (**ctrl + shift + J** or **cmd + shift + J** on Mac)
