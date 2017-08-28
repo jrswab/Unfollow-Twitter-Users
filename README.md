@@ -21,7 +21,7 @@ To many lock outs and you could get your account banned.
 7. Press 'Enter'
 8. Profit!  
   
-  **Notice:**
+  **Notice:**  
   If you want to run this script more than once make sure you reload twitter so the 'non-followers' are off the page. Else this will just reclick and have you refollow everyone you just unfollowed...  
   Also make sure to type the usernames of the non-followers you wish to keep following exacly as is showin in their handle (no need to prefix with '@'.
   
