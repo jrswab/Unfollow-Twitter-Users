@@ -26,8 +26,9 @@ To many lock outs and you could get your account banned.
   * Also make sure to type the usernames of the non-followers you wish to keep following exacly as is showin in their handle (no need to prefix with '@').
   
 **To Do:**
-1. Allow users to load usernames from a text file.
-2. Let users store any non-followers they wish to keep following in a file for easy re-runs.
+1. Allow users to specifiy maximum wait time between actions.
+2. Allow users to load usernames from a text file.
+3. Let users store any non-followers they wish to keep following in a file for easy re-runs.
 
 **Done:**
 1. ~~Send alert message when finished.~~
