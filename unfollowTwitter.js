@@ -34,12 +34,12 @@ function unfollowLoop(){
     setTimeout(function(){
         if(userField[i].children[1].innerText.includes("Follows you") === false && inputFound[i] === false && buttonText === "Following"){
 		button.click();
-        i++;
-        if(i < userField.length){
-		rand = Math.round(Math.random() * 10000);
-		unfollowLoop();
-        }else{
-		window.alert("Unfollow Script Finished!");
+                i++;
+                if(i < userField.length){
+		        rand = Math.round(Math.random() * 10000);
+		        unfollowLoop();
+                }else{
+		        window.alert("Unfollow Script Finished!");
 	}
     }, rand)
 }
