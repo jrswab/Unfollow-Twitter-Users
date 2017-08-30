@@ -16,7 +16,7 @@ function main(){
         randomIntFromInterval(setMin,setMax);
         unfollowLoop();
         findUsers();
-    }else if(max <= 2000){
+    }else if(setMax <= 2000){
     	inputMax = window.prompt("Please enter a number great than 2");
     	setMax = inputMax * 1000;
         main();
