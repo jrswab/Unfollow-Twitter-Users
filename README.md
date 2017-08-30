@@ -14,15 +14,15 @@ Twitter does not like mass unfollowing (or following) and will lock your account
 To many lock outs and you could get your account banned.  
   
 ### How to do the thing:
-#### (In 9 Easy Steps!)
+#### (In 8 Easy Steps!)
 0. Right Click 'unfollow.js' above and select open in new tab
 1. Open [https://twitter/following](https://twitter.com/following)
 2. Open the dev console (**ctrl + shift + J** or **cmd + shift + J** on Mac)
 3. Highlight and copy the code from 'unfollow.js'
 4. Paste the copied code into your dev console from step 3
 5. Enter any usernames of non-followers you'd like to keep following
-7. Press 'Enter'
-8. Profit!  
+6. Press 'Enter'
+7. Profit!  
   
   **Notice:**  
   * Make sure to type the usernames of the non-followers you wish to keep following **exacly** as is showin in their handle.
