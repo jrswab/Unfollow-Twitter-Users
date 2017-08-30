@@ -5,7 +5,6 @@ let i = 0;
 let t = 0;
 let inputFound = [];
 let saveNames = input.split(" ");
-let button = undefined;
 let rand = Math.round(Math.random() * 10000);
 let setMin = 2000;
 let setMax = inputMax * 1000;
@@ -16,7 +15,7 @@ function main(){
         randomIntFromInterval(setMin,setMax);
         unfollowLoop();
         findUsers();
-    }else if(setMax <= 2000){
+    }else{
     	inputMax = window.prompt("Please enter a number great than 2");
     	setMax = inputMax * 1000;
         main();
@@ -49,11 +48,20 @@ function randomIntFromInterval(min,max)
 
 
 function unfollowLoop(){
-	button = userField[i].previousElementSibling.children[0].children[0].children[0].children[1];
+	let button = userField[i].previousElementSibling.children[0].children[0].children[0].children[1];
 	let buttonText = button.innerText;
-	let status = userField[i].children[1].children[2].innerText;
+	let stat = userField[i].children[1].children[2];
+	let follows = "";
+
+	if(stat === undefined){
+		follows = "";
+	}else{
+
+		follows = stat.innerText;
+	}
+
 	setTimeout(function(){
-		if(status.includes("Follows you") === false && inputFound[i] === false && buttonText.includes("Following") === true){
+		if(follows.includes("Follows you") === false && inputFound[i] === false && buttonText.includes("Following") === true){
 			button.click();
         }
 		i++;
@@ -63,6 +71,6 @@ function unfollowLoop(){
 		}else{
 			window.alert("Unfollow Script Finished!");
 		}
-	}, rand)
+	}, rand);
 }
 
