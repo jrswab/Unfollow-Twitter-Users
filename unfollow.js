@@ -51,8 +51,9 @@ function randomIntFromInterval(min,max)
 function unfollowLoop(){
 	button = userField[i].previousElementSibling.children[0].children[0].children[0].children[1];
 	let buttonText = button.innerText;
+	let status = userField[i].children[1].children[2].innerText;
 	setTimeout(function(){
-		if(userField[i].children[1].innerText.includes("Follows you") === false && inputFound[i] === false && buttonText === "Following"){
+		if(status.includes("Follows you") === false && inputFound[i] === false && buttonText.includes("Following") === true){
 			button.click();
         }
 		i++;
