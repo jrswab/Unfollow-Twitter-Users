@@ -1,0 +1,27 @@
+{
+    "name": "Twitter Non-Followers",
+    "version": "0.2",
+    "manifest_version": 2,
+    "description": "Automatially unfollow anyone who is not following you back! With the abilty to set max wait time between actions and exempt any non-follow you wish to keep following.",
+    "permissions": [
+        "tabs"
+        ],
+    "author": "Jaron Swab (@jrswab)",
+    "background": {
+        "persistent": false,
+        "scripts": ["background.js"]
+    },
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["content.js"]
+        }
+    ],
+    "browser_action": {
+        "default_title": "Unfollow Twitter Users",
+        "default_icon": "icon.png"
+    },
+    "icons": {  "16": "icon.png",
+                "48": "icon.png",
+                "128": "icon.png" }
+}
