@@ -28,6 +28,16 @@ To many lock outs and you could get your account banned.
   * Make sure to type the usernames of the non-followers you wish to keep following **exacly** as is showin in their handle.
   * "jrswab" is not the same as "Jrswab", "JRswab", "jrSwab", ect.
   * no need to prefix with '@'
+
+#### Using Chrome Extension
+0. Download all files in the 'chromeExtension' folder (also the folder itself)
+1. Click the settings button in Chrome
+2. Click "More tools"
+3. Click "Extensions"
+4. Check "Developer mode" in the top right
+5. Click the "Load unpacked extension..." button
+6. Select the folder where you downloaded the files from step 0. (If you downloaded the whole directory than click that)
+7. Profit!
   
 **To Do:**
 1. Allow users to load usernames from a text file. (May end up being via extension only)
