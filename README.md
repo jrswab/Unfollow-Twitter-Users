@@ -30,7 +30,8 @@ To many lock outs and you could get your account banned.
   * no need to prefix with '@'
   
 **To Do:**
-1. Allow users to load usernames from a text file.
+1. Allow users to load usernames from a text file. (May end up being via extension only)
+2. Have the Chrome extension pop up with options instead of using window.prompt.
 
 **Done:**
 1. ~~Send alert message when finished.~~
